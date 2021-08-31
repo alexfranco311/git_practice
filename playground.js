@@ -119,7 +119,7 @@ switch (groceryItem) {
 // Prints 'Papayas are $1.29'
 
 
-/* GIT
+            /* GIT
 git init - new repository
 git status - checks contents of working directory and staging area
 git add - adds files from the working directory to the staging area
@@ -144,4 +144,13 @@ git merge origin/master: Merges origin/master into your local branch.
 git push origin <branch_name>: Pushes a local branch to the origin remote.
 */
 
- 
+ /*8/30 learning bootstrap basics
+    bootstrap breakpoint naming
+    <div class="col-sm-8">
+    </div>
+    the breakpoint can be sm, md, lg, or xl
+    when no breakpoint is selected, x small is default.
+    <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-3">
+    </div>
+    differernt formatting for the same column based on screen size
+    */
