@@ -215,3 +215,8 @@ git push origin <branch_name>: Pushes a local branch to the origin remote.
 </html>
 */
 //bootstrap button layouts - last before bed
+
+//8-31 good bye august
+/*
+  finished bootstrap course. try to bootstrap first project this weekend.
+*/
