@@ -331,7 +331,45 @@ const smallerNums = nums.map(num => num - 5);
 
 // Choose a method that will return a boolean value
 nums.every(num => num < 0);
+*/
+
+// 9-5 OBJECTS
+/*
+pass by reference:
+
+let spaceship = {
+  'Fuel Type' : 'Turbo Fuel',
+  homePlanet : 'Earth'
+};
+// Write your code below
+let greenEnergy = obj => {
+  obj['Fuel Type'] = 'avocado oil';
+}
+let remotelyDisable = obj => {
+  obj.disabled = True ;
+}
+//console.log(spaceship);
 
 break;
 
+the use of this keyword to access the properties of an object within a property of that object, the this word gives the property access to the other information within the object.
+const robot = {
+  model : '1E78V2',
+  energyLevel : 100,
+  provideInfo() {
+    return (`I am ${this.model} and my current energy level is ${this.energyLevel}.`);},
+};
+console.log(robot.provideInfo());
+break; Factory Function
+const robotFactory = (model, mobile) => {
+  return {
+    model: model,
+    mobile: mobile,
+    beep() {
+      console.log('Beep Boop');
+    }
+  }
+}
+const tinCan = robotFactory('P-500', true)
+tinCan.beep()
 */
