@@ -373,3 +373,74 @@ const robotFactory = (model, mobile) => {
 const tinCan = robotFactory('P-500', true)
 tinCan.beep()
 */
+/* 9-6 more advanced ojects
+Destructured Assignemnt
+const residence = vampire.residence; 
+console.log(residence); // Prints 'Transylvania' 
+can be shortened to this by using curly brackets:
+const { residence } = vampire; 
+console.log(residence); // Prints 'Transylvania'
+
+break;
+objects project
+  const team = {
+  _players: [
+    {
+    firstName: 'Alex',
+    lastName: 'Franco',
+    age: 27
+    }, {
+    firstName: 'Abraham',
+    lastName: 'Hungria',
+    age: 28
+    }, {
+    firstName: 'Anthony',
+    lastName: 'Cruz',
+    age: 29
+    }
+  ],
+  _games: [
+    {
+    opponent: 'Panthers',
+    teamPoints: 18,
+    opponentPoints: 21 
+    }, {
+    opponent: 'Titans',
+    teamPoints: 23,
+    opponentPoints: 3 
+    }, {
+    opponent: 'Giants',
+    teamPoints: 17,
+    opponentPoints: 14 
+    },
+  ],
+  get games() {
+    return this._games;
+  },
+  addPlayer(firstName, lastName, age) {
+    let player = {
+      firstName: firstName,
+      lastName: lastName,
+      age: age
+    };
+    this._players.push(player);
+  },
+  addGame(opp, myPts, oppPts) {
+    const game = {
+      opponent: opp,
+      teamPoints: myPts,
+      opponentPoints: oppPts
+    };
+    this.games.push(game)
+  }
+  //
+}; //end of object
+team.addPlayer('Steph', 'Curry', 28);
+team.addPlayer('Lisa', 'Leslie', 44);
+team.addPlayer('Bugs', 'Bunny', 76);
+console.log(team._players);
+team.addGame('Jets', 47, 7);
+team.addGame('Cowboys', 21, 21);
+team.addGame('Dolphins', 14, 2);
+console.log(team._games);
+*/
