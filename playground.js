@@ -444,3 +444,16 @@ team.addGame('Cowboys', 21, 21);
 team.addGame('Dolphins', 14, 2);
 console.log(team._games);
 */
+//9-7 Transpilation with babel
+/*
+in terminal
+1. npm init -adds package.json to project
+2. touch .babelrc -creates the .babelrc file to the project folder
+3. set up the configuration for babel in the .babelrc file in the project.
+    {
+    "presets": ["@babel/preset-env"]
+    }
+4.add the scripts to package.json, under the "test", dont forget the comma.
+    "build": "babel src -d lib"
+5. npm run build
+*/
