@@ -1,0 +1,15 @@
+h1 {
+    color: red
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+a[href*='Boot-Paint'] {
+    color: rgba(240, 116, 1, 0.925);
+}
+
+a:hover {
+    color:seagreen;
+}

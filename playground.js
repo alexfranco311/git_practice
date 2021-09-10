@@ -512,4 +512,13 @@ console.log("Today is Sept. 8. Front end dev course is at 9%");
 - <figure> encapsulates all types of media.
 - <figcaption> is used to describe the media in <figure>.
 - <video>, <embed>, and <audio> elements are used for media files.
+    INTRO TO CSS
+-CSS inline styles can be written inside the opening HTML tag using the style attribute.
+-Inline styles can be used to style HTML, but it is not the best practice.
+-An internal stylesheet is written using the <style> element inside the <head> element of an HTML file.
+-Internal stylesheets can be used to style HTML but are also not best practice.
+-An external stylesheet separates CSS code from HTML, by using the “.css”.file extension.
+-External stylesheets are the best approach when it comes to using HTML and CSS.
+-External stylesheets are linked to HTML using the <link> element.
+Attributes are added to the element for extra detail or functionality. eg: href, src, class, id
 */
