@@ -468,6 +468,8 @@ HTML
 -Line breaks are created with the <br> tag.
 -Ordered lists (<ol>) are numbered and unordered lists (<ul>) are bulleted.
 -Images (<img>) and videos (<video>) can be added by linking to an existing source.
+-For accessibility and compatibility, use the alt="" and leave it empty. if it has to stay on the html portion.
+
 
 created the webpage.html document using the terminal. commit, merge push to git to continue the consistent practice of git
 */
@@ -475,6 +477,7 @@ created the webpage.html document using the terminal. commit, merge push to git 
 -The <!DOCTYPE html> declaration should always be the first line of code in your HTML files. This lets the browser know what 
 version of HTML to expect.
 -The <html> element will contain all of your HTML code.
+-On the first line of the html make sure to establish the language eg: lang="en" ; will help with accessibility.
 -Information about the web page, like the title, belongs within the <head> of the page.
 -You can add a title to your web page by using the <title> element, inside of the head.
 -A webpage’s title appears in a browser’s tab.
@@ -484,8 +487,8 @@ version of HTML to expect.
 -Indentation also helps make code easier to read. It makes parent-child relationships visible.
 -Comments are written in HTML using the following syntax: <!-- comment -->.
 */
-console.log("Today is Sept. 9. Front end dev course is at 9%");
-/* 9/9 html Tables!
+console.log("Today is Sept. 8. Front end dev course is at 9%");
+/* 9/8 html Tables!
 -The <table> element creates a table.
 -The <tr> element adds rows to a table.
 -To add data to a row, you can use the <td> element.
@@ -497,4 +500,16 @@ console.log("Today is Sept. 9. Front end dev course is at 9%");
 -A table’s body is created with the <tbody> element.
 -A table’s footer is created with the <tfoot> element.
 -All the CSS properties you learned about in this course can be applied to tables and their data.
+*/
+// 9/9 semantic html
+/*
+-Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags.
+-Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your website’s SEO.
+- <header>, <nav> , <main> and <footer> create the basic structure of the webpage.
+- <section> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.
+- <article> holds content that makes sense on its own such as articles, blogs, comments, etc.
+- <aside> contains information that is related to the main content, but not required in order to understand the dominant information.
+- <figure> encapsulates all types of media.
+- <figcaption> is used to describe the media in <figure>.
+- <video>, <embed>, and <audio> elements are used for media files.
 */
