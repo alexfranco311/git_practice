@@ -522,3 +522,25 @@ console.log("Today is Sept. 8. Front end dev course is at 9%");
 -External stylesheets are linked to HTML using the <link> element.
 Attributes are added to the element for extra detail or functionality. eg: href, src, class, id
 */
+/* 9/10 More CSS - Selectors
+-CSS can select HTML elements by type, class, ID, and attribute.
+-All elements can be selected using the universal selector.
+-An element can have different states using the pseudo-class selector.
+-Multiple CSS classes can be applied to one HTML element.
+-Classes can be reusable, while IDs can only be used once.
+-IDs are more specific than classes, and classes are more specific than type. That means IDs will override any styles from a class, 
+  and classes will override any styles from a type selector.
+-Multiple selectors can be chained together to select an element. This raises the specificity but can be necessary.
+-Nested elements can be selected by separating selectors with a space.
+-Multiple unrelated selectors can receive the same styles by separating the selector names with commas.
+    VISUAL RULES
+-color: this property styles an element’s foreground color
+-background-color: this property styles an element’s background color
+-font-family: ""; changes the font
+-font-weight: ; changes the property added to the font. bold, light
+-font-size: 14px; changes the font size 
+-text-align: ; changes the alignemnt of the text. right, left, center, justify, etc
+-opacity: ; from 0 to 1 changes how visible the element is. 1 = 100% visible.
+- !important will override any styling pertaining to the element in question. it should be avoided
+  it is very hard to override.
+*/
