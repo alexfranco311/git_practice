@@ -1,5 +1,9 @@
 h1 {
-    color: red
+    color: red;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    text-align: center;
+
 }
 
 .uppercase {
@@ -12,4 +16,14 @@ a[href*='Boot-Paint'] {
 
 a:hover {
     color:seagreen;
+}
+
+h3,
+    p {
+        font-family: monospace;
+    }
+
+p {
+    font-size: 18px;
+    text-align: justify;
 }
