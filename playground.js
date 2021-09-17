@@ -636,3 +636,22 @@ Review:
 -The float property can move elements as far left or as far right as possible on a web page.
 -You can clear an element’s left or right side (or both) using the clear property.
 */
+/* 9/16 Color Theory:
+-Each color has a specific meaning (both positive and negative), which can evoke emotions from a user. 
+-For instance, here’s a list of words often associated with colors:
+  Red: Passionate, energetic, angry
+  Orange: Optimistic, playful, fun
+  Yellow: Welcoming, intellectual, impatient
+  Green: Prosperous, balanced, growing
+  Blue: Peaceful, loyal, cold
+  Purple: Imaginative, royal, spiritual
+  Gray: Unemotional, compromising
+  White: Innocent, pure
+  Black: Luxurious, powerful
+-Using the color wheel as a basis for selecting colors
+-Using a color scheme approach that promotes harmony
+-Using colors that fit the context and emotion you are trying to display to users
+-Using contrast to enhance the legibility of elements on the page
+-Using shades and tints of a color to create flexibility
+-Avoiding combinations that can cause issues for users
+*/
