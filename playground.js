@@ -655,3 +655,26 @@ Review:
 -Using shades and tints of a color to create flexibility
 -Avoiding combinations that can cause issues for users
 */
+/* 9/18 Color for UI
+-Select a dominant brand color and supporting accent colors
+-Use contrast to define sections and differentiate actions
+-Use semantic colors for error and success messages
+-Incorporate default colors for text and backgrounds where needed
+-Neutral colors can provide good contrast
+-Keep users in mind when selecting color
+
+Text Design
+
+-Differentiating text is essential, and there are several ways to do this:
+-Use <h1>, <h2>, and <h3> header elements
+-Use 2-3 well-paired fonts, but no more.
+-Adjust font style, size, weight, spacing, and color.
+-Whitespace plays a big part in readability. Make sure all of your text elements have enough whitespace.
+-Use standard convention for links and navigation buttons so users know what to expect.
+-Use columns when necessary to keep line length at around 50-75 characters.
+-Use colored cards to pair images with important text so users’ eyes are drawn towards it.
+-Have the elements you want users to notice at the top of the page, or down the left-hand side because 
+  those are the areas of the page users will notice when skimming.
+*/
+/* 9/19 
+*/
