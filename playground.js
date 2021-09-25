@@ -749,4 +749,38 @@ Values for justify-content property:
 -center — all items will be positioned in order, in the center of the parent container with no extra space before, between, or after them.
 -space-around — items will be positioned with equal space before and after each item, resulting in double the space between elements.
 -space-between — items will be positioned with equal space between them, but no extra space before the first or after the last elements.
+Values for align-items
+-flex-start — all elements will be positioned at the top of the parent container.
+-flex-end — all elements will be positioned at the bottom of the parent container.
+-center — the center of all elements will be positioned halfway between the top and bottom of the parent container.
+-baseline — the bottom of the content of all items will be aligned with each other.
+-stretch — if possible, the items will stretch from top to bottom of the container (this is the default value; elements with a 
+  specified height will not stretch; elements with a minimum height or no height specified will stretch).
+values for flex-wrap
+-wrap — child elements of a flex container that don’t fit into a row will move down to the next line
+-wrap-reverse — the same functionality as wrap, but the order of rows within a flex container is reversed (for example, in a 2-row flexbox, 
+  the first row from a wrap container will become the second in wrap-reverse and the second row from the wrap container will become the first in wrap-reverse)
+-nowrap — prevents items from wrapping; this is the default value and is only necessary to override a wrap value set by a different CSS rule.
+values for align-content
+-flex-start — all rows of elements will be positioned at the top of the parent container with no extra space between.
+-flex-end — all rows of elements will be positioned at the bottom of the parent container with no extra space between.
+-center — all rows of elements will be positioned at the center of the parent element with no extra space between.
+-space-between — all rows of elements will be spaced evenly from the top to the bottom of the container with no space above the first or below the last.
+-space-around — all rows of elements will be spaced evenly from the top to the bottom of the container with the same amount of space at the top and bottom and between each element.
+-stretch — if a minimum height or no height is specified, the rows of elements will stretch to fill the parent container from top to bottom (default value).
+
+review: 
+-display: flex changes an element to a block-level container with flex items inside of it.
+-display: inline-flex allows multiple flex containers to appear inline with each other.
+-justify-content is used to space items along the main axis.
+-align-items is used to space items along the cross axis.
+-flex-grow is used to specify how much space (and in what proportions) flex items absorb along the main axis.
+-flex-shrink is used to specify how much flex items shrink and in what proportions along the main axis.
+-flex-basis is used to specify the initial size of an element styled with flex-grow and/or flex-shrink.
+-flex is used to specify flex-grow, flex-shrink, and flex-basis in one declaration.
+-flex-wrap specifies that elements should shift along the cross axis if the flex container is not large enough.
+-align-content is used to space rows along the cross axis.
+-flex-direction is used to specify the main and cross axes.
+-flex-flow is used to specify flex-wrap and flex-direction in one declaration.
+-Flex containers can be nested inside of each other by declaring display: flex or display: inline-flex for children of flex containers.
 */
