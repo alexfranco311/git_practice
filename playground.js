@@ -783,6 +783,29 @@ review:
 -flex-direction is used to specify the main and cross axes.
 -flex-flow is used to specify flex-wrap and flex-direction in one declaration.
 -Flex containers can be nested inside of each other by declaring display: flex or display: inline-flex for children of flex containers.
+*/
+/* 9/29 Terminal navigation
+-pwd outputs the name of the current working directory.
+-ls lists all files and directories in the working directory.
+-cd switches you into the directory you specify.
+-mkdir creates a new directory in the working directory.
+-touch creates a new file inside the working directory.
+-You can use helper commands to make navigation easier:
+-clear clears the terminal
+-tab autocompletes the name of a file or directory
+-up and down arrows allow you to cycle through previous commands
 
-testing git push
+  Accesibility
+When using the alt attribute, you should adhere to these conventions:
+-In general, the value of alt should concisely describe the image.
+-For images that are also <a> elements, the alt attribute should describe the source that the link targets.
+-If an image conveys no information (such as a decorative border), the alt attribute should be empty, but should never be omitted.
+-If an image is described by text near the image, do not duplicate the description in the alt attribute. Use an empty alt attribute instead.
+-The value of an alt attribute should be no more than 150 characters.
+review:
+-Using semantic HTML elements whenever possible (such as <header> instead of <div id="header">) will allow screen reader users to navigate your website more efficiently.
+-The role attribute is used to communicate information about the role of specific elements.
+-role="presentation" allows a screen reader to skip markup elements that don’t directly contain useful information.
+-aria-label and other ARIA properties can be used to help users perceive information that is communicated visually but not through text.
+-The alt attribute should be added to every image element (and all other elements that support it) instead of aria-label. When used, its value should be a useful description of the image.
 */
