@@ -808,4 +808,9 @@ review:
 -role="presentation" allows a screen reader to skip markup elements that don’t directly contain useful information.
 -aria-label and other ARIA properties can be used to help users perceive information that is communicated visually but not through text.
 -The alt attribute should be added to every image element (and all other elements that support it) instead of aria-label. When used, its value should be a useful description of the image.
+
+CSS Transitions
+shorthand can be achived with the following ruleset:
+transition-property, transition-duration, transition-timing-function, transition-delay.
+ie: transition: color 1.5s linear 0.5s
 */
