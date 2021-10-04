@@ -813,4 +813,9 @@ CSS Transitions
 shorthand can be achived with the following ruleset:
 transition-property, transition-duration, transition-timing-function, transition-delay.
 ie: transition: color 1.5s linear 0.5s
+
+GRID
+grid-template-columns: 100px 50% 200px;
+  grid-template-rows: 40% 50% 50px;
+grid columns and rows can be styled by using fixed pixles or a percentage of the parent container.
 */
