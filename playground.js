@@ -815,7 +815,28 @@ transition-property, transition-duration, transition-timing-function, transition
 ie: transition: color 1.5s linear 0.5s
 
 GRID
-grid-template-columns: 100px 50% 200px;
+  grid-template-columns: 100px 50% 200px;
   grid-template-rows: 40% 50% 50px;
 grid columns and rows can be styled by using fixed pixles or a percentage of the parent container.
+the two css properties can be combined and replaced by the grid-template property.
+the above two lines would become the following:
+grid-template: 100px 50% 50px / 40% 50% 50px;
+
+grid-row-gap and grid-column-gap can be combined into one line, grid-gap: 20px 10px;
+-grid-area takes four values separated by slashes. The order is important! This is how grid-area will interpret those values.
+  grid-row-start
+  grid-column-start
+  grid-row-end
+  grid-column-end
+    grid-area: 2 / 3 / 4 / span 5
+  
+REVIEW: 
+-grid-template-columns defines the number and sizes of the columns of the grid
+-grid-template-rows defines the number and sizes of the rows of the grid
+-grid-template is a shorthand for defining both grid-template-columns and grid-template-rows in one line
+-grid-gap puts blank space between rows and/or columns of the grid
+-grid-row-start and grid-row-end makes elements span certain rows of the grid
+-grid-column-start and grid-column-end makes elements span certain columns of the grid
+-grid-area is a shorthand for grid-row-start, grid-column-start, grid-row-end, and grid-column-end, all in one line
+
 */
