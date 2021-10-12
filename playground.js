@@ -838,5 +838,89 @@ REVIEW:
 -grid-row-start and grid-row-end makes elements span certain rows of the grid
 -grid-column-start and grid-column-end makes elements span certain columns of the grid
 -grid-area is a shorthand for grid-row-start, grid-column-start, grid-row-end, and grid-column-end, all in one line
-
 */
+/* 11/11/21 - Command Line
+
+Options modify the behavior of commands:
+  ls -a lists all contents of a directory, including hidden files and directories
+  ls -l lists all contents in long format
+  ls -t orders files and directories by the time they were last modified
+  Multiple options can be used together, like ls -alt
+From the command line, you can also copy, move, and remove files and directories:
+  cp copies files
+  mv moves and renames files
+  rm removes files
+  rm -r removes directories
+Wildcards are useful for selecting groups of files and directories
+
+Redirection reroutes standard input, standard output, and standard error.
+The common redirection commands are:
+  > redirects standard output of a command to a file, overwriting previous content.
+  >> redirects standard output of a command to a file, appending new content to old content.
+  < redirects standard input to a command.
+  | redirects standard output of a command to another command.
+A number of other commands are powerful when combined with redirection commands:
+  sort: sorts lines of text alphabetically.
+  uniq: filters duplicate, adjacent lines of text.
+  grep: searches for a text pattern and outputs it.
+  sed : searches for a text pattern, modifies it, and outputs it.
+
+The environment refers to the preferences and settings of the current user.
+The nano editor is a command line text editor used to configure the environment.
+~/.bash_profile is where environment settings are stored. You can edit this file with nano.
+Environment variables are variables that can be used across commands and programs and hold information about the environment.
+  export VARIABLE="Value" sets and exports an environment variable.
+  USER is the name of the current user.
+  PS1 is the command prompt.
+  HOME is the home directory. It is usually not customized.
+  PATH returns a colon : separated list of file paths. It is customized in advanced cases.
+  env returns a list of environment variables. You can redirect the output, using grep to select the variable you want to see.
+
+  Justify Content: ADVANCED CSS GRID
+We can use justify-content to position the entire grid along the row axis. This property is declared on grid containers.
+It accepts these values:
+-start — aligns the grid to the left side of the grid container
+-end — aligns the grid to the right side of the grid container
+-center — centers the grid horizontally in the grid container
+-stretch — stretches the grid items to increase the size of the grid to expand horizontally across the container
+-space-around — includes an equal amount of space on each side of a grid element, resulting in double the amount 
+  of space between elements as there is before the first and after the last element
+-space-between — includes an equal amount of space between grid items and no space at either end
+-space-evenly — places an even amount of space between grid items and at either end
+  Align Items
+align-items is a property that positions grid items along the block, or column axis. This means that it positions items from 
+top to bottom. This property is declared on grid containers.
+align-items accepts these values:
+-start — aligns grid items to the top side of the grid area
+-end — aligns grid items to the bottom side of the grid area
+-center — aligns grid items to the center of the grid area
+-stretch — stretches all items to fill the grid area
+  Align Content
+In the previous exercise, we positioned grid items within their rows. align-content positions the rows along the column axis, 
+or from top to bottom, and is declared on grid containers.
+It accepts these positional values:
+-start — aligns the grid to the top of the grid container
+-end — aligns the grid to the bottom of the grid container
+-center — centers the grid vertically in the grid container
+-stretch — stretches the grid items to increase the size of the grid to expand vertically across the container
+-space-around — includes an equal amount of space on each side of a grid element, resulting in double the amount of space 
+  between elements as there is before the first and after the last element
+-space-between — includes an equal amount of space between grid items and no space at either end
+-space-evenly — places an even amount of space between grid items and at either end
+
+justify-self specifies how an individual element should position itself with respect to the row axis. This property will 
+  override justify-items for any item on which it is declared.
+align-self specifies how an individual element should position itself with respect to the column axis. This property will 
+  override align-items for any item on which it is declared.
+These properties are declared on grid items. They both accept these four properties: 
+-start — positions grid items on the left side/top of the grid area
+-end — positions grid items on the right side/bottom of the grid area
+-center — positions grid items on the center of the grid area
+-stretch — positions grid items to fill the grid area (default)
+
+grid-auto-flow specifies whether new elements should be added to rows or columns, and is declared on grid containers.
+grid-auto-flow accepts these values:
+-row — specifies the new elements should fill rows from left to right and create new rows when there are too many elements (default)
+-column — specifies the new elements should fill columns from top to bottom and create new columns when there are too many elements
+-dense — this keyword invokes an algorithm that attempts to fill holes earlier in the grid layout if smaller elements are added
+  */
