@@ -923,4 +923,17 @@ grid-auto-flow accepts these values:
 -row — specifies the new elements should fill rows from left to right and create new rows when there are too many elements (default)
 -column — specifies the new elements should fill columns from top to bottom and create new columns when there are too many elements
 -dense — this keyword invokes an algorithm that attempts to fill holes earlier in the grid layout if smaller elements are added
+
+REVIEW:
+-grid-template-areas specifies grid named grid areas
+-grid layouts are two-dimensional: they have a row, or inline, axis and a column, or block, axis.
+-justify-items specifies how individual elements should spread across the row axis
+-justify-content specifies how groups of elements should spread across the row axis
+-justify-self specifies how a single element should position itself with respect to the row axis
+-align-items specifies how individual elements should spread across the column axis
+-align-content specifies how groups of elements should spread across the column axis
+-align-self specifies how a single element should position itself with respect to the column axis
+-grid-auto-rows specifies the height of rows added implicitly to the grid
+-grid-auto-columns specifies the width of columns added implicitly to the grid
+-grid-auto-flow specifies in which direction implicit elements should be created
   */
