@@ -937,3 +937,40 @@ REVIEW:
 -grid-auto-columns specifies the width of columns added implicitly to the grid
 -grid-auto-flow specifies in which direction implicit elements should be created
   */
+/* 10/13 BACK TO JAVASCRIPT!
+  Review Arrays
+-Arrays are lists that store data in JavaScript.
+-Arrays are created with brackets [].
+-Each item inside of an array is at a numbered position, or index, starting at 0.
+-We can access one item in an array using its index, with syntax like: myArray[0].
+-We can also change an item in an array using its index, with syntax like myArray[0] = 'new string';
+-Arrays have a length property, which allows you to see how many items are in an array.
+-Arrays have their own methods, including .push() and .pop(), which add and remove items from an array, respectively.
+-Arrays have many methods that perform different tasks, such as .slice() and .shift(), you can find documentation at the Mozilla Developer Network website.
+-Some built-in methods are mutating, meaning the method will change the array, while others are not mutating. You can always check the documentation.
+-Variables that contain arrays can be declared with let or const. Even when declared with const, arrays are still mutable. However, a variable declared with const cannot be reassigned.
+-Arrays mutated inside of a function will keep that change even outside the function.
+-Arrays can be nested inside other arrays.
+-To access elements in nested arrays chain indices using bracket notation.
+*/ 
+/* 10/14 Javascript Debugging
+-Is your code throwing errors? If so, read the error stack trace for the type, description, and location of the error. Go to the error’s location and try to fix.
+-Is your code broken but not throwing errors? Walk through your code using console.log() statements. When unexpected results occur, isolate the bug and try to fix it.
+-Did you locate the bug using steps 1 and 2, but can’t fix the bug? Consult documentation to make sure you are using all JavaScript functionality properly. 
+If you are still stuck, Google your issue and consult Stack Overflow for help. Read solutions or post your own Stack Overflow question if none exist on the topic.
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
