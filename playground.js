@@ -959,11 +959,29 @@ REVIEW:
 -Did you locate the bug using steps 1 and 2, but can’t fix the bug? Consult documentation to make sure you are using all JavaScript functionality properly. 
 If you are still stuck, Google your issue and consult Stack Overflow for help. Read solutions or post your own Stack Overflow question if none exist on the topic.
 */
-
-/*
+/* 10/23 Regular Expressions aka REGEX  
+-Regular expressions are special sequences of characters that describe a pattern of text that is to be matched
+-We can use literals to match the exact characters that we desire
+-Alternation, using the pipe symbol |, allows us to match the text preceding or following the |
+-Character sets, denoted by a pair of brackets [], let us match one character from a series of characters
+-Wildcards, represented by the period or dot ., will match any single character (letter, number, symbol or whitespace)
+-Ranges allow us to specify a range of characters in which we can make a match
+-Shorthand character classes like \w, \d and \s represent the ranges representing word characters, digit characters, and whitespace characters, respectively
+-Groupings, denoted with parentheses (), group parts of a regular expression together, and allows us to limit alternation to part of a regex
+-Fixed quantifiers, represented with curly braces {}, let us indicate the exact quantity or a range of quantity of a character we wish to match
+-Optional quantifiers, indicated by the question mark ?, allow us to indicate a character in a regex is optional, or can appear either 0 times or 1 time
+-The Kleene star, denoted with the asterisk *, is a quantifier that matches the preceding character 0 or more times
+-The Kleene plus, denoted by the plus +, matches the preceding character 1 or more times
+-The anchor symbols hat ^ and dollar sign $ are used to match text at the start and end of a string, respectively
 */
-
-/*
+/* 10/24 Back-End
+-The front-end of a website or application consists of the HTML, CSS, JavaScript, and static assets sent to a client, like a web browser.
+-A web server is a process running on a computer somewhere that listens for incoming requests for information over the internet and sends back responses.
+-Storing, accessing, and manipulating data is a large part of a web application’s back-end
+-Data is stored in databases which can be relational databases or NoSQL databases.
+-The server-side of a web application, sometimes called the application server, handles important tasks such as authorization and authentication.
+-The back-end of web application often has a web API which is a way of interacting with an application’s data through HTTP requests and responses.
+-Together the technologies used to build the front-end and back-end of a web application are known as the stack, and many different lang
 */
 
 /*
