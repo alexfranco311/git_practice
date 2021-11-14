@@ -982,9 +982,15 @@ If you are still stuck, Google your issue and consult Stack Overflow for help. R
 -The server-side of a web application, sometimes called the application server, handles important tasks such as authorization and authentication.
 -The back-end of web application often has a web API which is a way of interacting with an application’s data through HTTP requests and responses.
 -Together the technologies used to build the front-end and back-end of a web application are known as the stack, and many different lang
-git commit cli practice 11/12/12
 */
-/*
+/* 11/12 - DOM EVENTS
+You can register events to DOM elements using the addEventListener() method.
+The addEventListener() method takes two arguments: an event type and an event handler function.
+When an event is triggered on the event target, the registered event handler function executes.
+Event handler functions can also be registered as values of onevent properties of their event target.
+Event object properties like .target, .type, and .timeStamp are used to provide information about the event.
+The addEventListener() method can be used to add multiple event handler functions to a single event.
+The removeEventListener() method stops specific event handlers from “listening” for specific events firing.
 */
 
 /*
