@@ -992,7 +992,6 @@ Event object properties like .target, .type, and .timeStamp are used to provide 
 The addEventListener() method can be used to add multiple event handler functions to a single event.
 The removeEventListener() method stops specific event handlers from “listening” for specific events firing.
 */
-
 /* 11/13 form validation
 Modern websites require a lot of information from their users and they collect a lot of this information through HTML forms.
 It’s essential to validate the data submitted through forms to keep websites secure and to make sure they function correctly.
@@ -1019,6 +1018,19 @@ A <datalist> element is populated with <option> elements and works with an <inpu
 A <textarea> element is a text input field that has a customizable area.
 When a <form> is submitted, the name of the fields that accept input and the value of those fields are sent as name=value pairs.
 */
-
+/* 11/16 git commit cli practice
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
+/*
+*/
 /*
 */
