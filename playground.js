@@ -1029,7 +1029,16 @@ The process module is a global module that gives access to information about the
 The os module provides methods to retrieve information about the computer, operating system, and network interfaces.
 The util module contains methods used to maintain and debug your code.
 */
-/*
+/* 12/10 testing
+Writing automated tests takes time, but the cost is outweighed by the benefits. Automated testing
+
+Increases confidence that your product works as expected (compared to manual testing)
+Improves upon documentation
+Reduces the likelihood of regression
+You also learned
+
+Where and why test code is stored alongside implementation code
+Terms to help communicate the benefit of testing: manual testing, automated testing, test suite, bug, documentation, and regression
 */
 /*
 */
