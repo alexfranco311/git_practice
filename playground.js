@@ -1040,7 +1040,8 @@ You also learned
 Where and why test code is stored alongside implementation code
 Terms to help communicate the benefit of testing: manual testing, automated testing, test suite, bug, documentation, and regression
 */
-/*
+/* 12/16 TDD
+
 */
 /*
 */
