@@ -1035,13 +1035,11 @@ Writing automated tests takes time, but the cost is outweighed by the benefits. 
 Increases confidence that your product works as expected (compared to manual testing)
 Improves upon documentation
 Reduces the likelihood of regression
-You also learned
-
 Where and why test code is stored alongside implementation code
 Terms to help communicate the benefit of testing: manual testing, automated testing, test suite, bug, documentation, and regression
 */
-/* 12/16 TDD
-
+/* 12/22 TDD
+  learning mocha for testing
 */
 /*
 */
